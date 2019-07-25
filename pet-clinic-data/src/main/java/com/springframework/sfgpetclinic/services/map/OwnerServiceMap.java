@@ -9,7 +9,6 @@ import java.util.Set;
 @Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
-
     @Override
     public Set <Owner> findAll() {
         return super.findAll();
